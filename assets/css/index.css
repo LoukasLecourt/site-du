@@ -1,0 +1,179 @@
+body {
+    background-image: url("../images/space.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+image {
+    width: 100%;
+}
+
+header {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: rgb(28, 27, 41);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 15px 11px -10px rgb(54, 50, 110);
+}
+.dumenu .dunavbar {
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+.dumenu .dunavbar li {
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-bottom: 3%;
+    padding-right: 6%;
+    font-size: 15px;
+    list-style-type: none;
+    width: 100%;
+}
+.dumenu .dunavbar #du {
+    margin-left: 6%;
+    border-right: solid whitesmoke;
+}
+.dumenu .dunavbar #accueil {
+    margin-left: 6%;
+    margin-top: 3%;
+    padding-right: 6%;
+    border-right: solid whitesmoke;
+}
+.dumenu .dunavbar a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dumenu .dunavbar a:active {
+    text-shadow: 1px 1px 20px red;
+}
+.navbar {
+    transform: translateY(-600%);
+    transition: transform 0.2s ease;
+    opacity: 0;
+}
+.showNav {
+    opacity: 100%;
+    margin-left: 8%;
+    transform: translateY(-160%);
+    background-color: rgb(28, 27, 41);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 15px 11px -10px rgb(54, 50, 110);
+    width: 50%;
+    border-bottom: solid whitesmoke;
+}
+.navbarnyr {
+    transform: translateY(-600%);
+    transition: transform 0.2s ease;
+    opacity: 0;
+}
+.showNavNyr {
+    opacity: 100%;
+    margin-left: 8%;
+    transform: translateY(-400%);
+    background-color: rgb(28, 27, 41);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 15px 11px -10px rgb(54, 50, 110);
+    width: 50%;
+    border-bottom: solid whitesmoke;
+}
+
+.body {
+    display: block;
+    position: relative;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    left: 5%;
+    border-radius: 10px;
+}
+.body #text {
+    display: block;
+    position: relative;
+}
+.body #text .text {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 3%;
+}
+.body .desc {
+    color: black;
+    padding: 3%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+#nav li {
+    margin-bottom: 3%;
+    margin-left: -10%;
+    width: 80%;
+}
+#nav #admin, #ville, #commandes {
+    padding-top: 1%;
+    border-top: solid whitesmoke;
+}
+#ville, #commandes  {
+    padding-bottom: 8%;
+}
+#role, #craft {
+    padding-top: 6%;
+}
+
+@media only screen and (min-width:800px){
+    
+    body {
+        background-size: 100% auto;
+    }
+    image {
+        width: 100%;
+    }
+
+
+    header {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0px 15px 15px -5px rgb(54, 50, 110);
+    }
+    .menu .navbar li {
+        margin-top: 2%;
+        margin-left: 11%;
+        margin-bottom: 3%;
+        font-size: 30px;
+    }
+    .menu .navbar #du {
+        margin-left: 15%;
+        padding-right: 11%;
+        border-right: solid 6px whitesmoke;
+    }
+    .menu .navbar #accueil {
+        margin-left: 11%;
+        padding-right: 11%;
+        border-right: solid 6px whitesmoke;
+    }
+
+    .body {
+        border-radius: 20px;
+        margin-top: 3%;
+    }
+    .body #text .text {
+        font-size: 25px;
+        margin-bottom: 0%;
+        padding: 2%;
+    }
+    .body .desc {
+        padding: 3%;
+        font-size: 20px;
+    }
+}
