@@ -105,18 +105,28 @@ header {
 }
 .body #text .text {
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     margin-bottom: 2%;
     font-weight: bold;
     text-decoration: underline;
     padding: 3%;
 }
+
+.body .tu2 {
+    text-decoration: underline;
+}
+
+.body .ita {
+    font-style: italic;
+}
+
+
 .body .desc {
     color: black;
     padding: 3%;
     font-size: 12px;
-    text-align: center;
+    margin: 2%;
 }
 
 @media only screen and (min-width:800px){
